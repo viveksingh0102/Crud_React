@@ -1,0 +1,89 @@
+/* Form Styles */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+/* Invalid field styles */
+.is-invalid {
+    border-color: #dc3545 !important;
+    padding-right: calc(1.5em + .75rem);
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" stroke="%23dc3545" viewBox="0 0 12 12"><path d="M0 0l12 12M12 0L0 12"></path></svg>') !important;
+    background-repeat: no-repeat;
+    background-position: right calc(.375em + .1875rem) center;
+    background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+}
+
+/* form.css */
+
+/* Add spacing between form elements */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Align form labels and inputs */
+label {
+    display: block;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='date'],
+input[type='tel'] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style error messages */
+.invalid-feedback {
+    color: #dc3545;
+    font-size: 12px;
+}
+
+/* Style buttons */
+/* .btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: #000;
+    border: none;
+} */
+
+/* Style table */
+/* .table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f2f2f2;
+} */
+
+/* Add hover effect to table rows */
+/* .table tbody tr:hover {
+    background-color: #f5f5f5;
+} */
